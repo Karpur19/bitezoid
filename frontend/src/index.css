@@ -1,0 +1,52 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'; /* Improved font stack */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa; /* Subtle light background */
+  color: #333; /* Default text color for better readability */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Ensure links inherit the color */
+}
+
+/* Focused state for better accessibility */
+:focus {
+  outline: 3px solid #ff5722; /* Bitezoid accent color for focused elements */
+  outline-offset: 2px;
+}
+
+/* Apply consistent spacing for all elements */
+html, body {
+  height: 100%;
+}
+
+/* Universal box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Specific styles for large screens (optional) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.1rem; /* Increase font size on larger screens for better readability */
+  }
+}

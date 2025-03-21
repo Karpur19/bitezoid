@@ -1,0 +1,127 @@
+.footer {
+    background-color: #f8f8f8;
+    color: #1c1c1c;
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.innerFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sec1, .sec2, .sec3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logoBox {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722; /* Bitezoid brand color */
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+}
+
+.filterBox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.sec2 {
+    margin-top: 30px;
+}
+
+.box {
+    width: 20%;
+}
+
+.boxTtl {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Better contrast */
+}
+
+.boxOpt {
+    display: block;
+    margin: 5px 0;
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.boxOpt:hover {
+    color: #ff5a5f; /* Adjust hover color to match Bitezoid accent */
+    text-decoration: underline;
+}
+
+.socialImgs {
+    display: flex;
+    gap: 10px;
+}
+
+.socialImg {
+    width: 24px;
+    height: 24px;
+}
+
+.app {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.appImg {
+    width: 120px;
+}
+
+.breakLine {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sec3 {
+    text-align: center;
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sec1, .sec2, .sec3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoBox {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
